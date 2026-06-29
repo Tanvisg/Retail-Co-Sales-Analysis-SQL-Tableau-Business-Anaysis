@@ -182,19 +182,19 @@ RetailCo-Business-Analysis/
 
 ### Dashboard 2 – Root Cause Analysis
 
-*(Add screenshot here)*
+<img width="1184" height="785" alt="image" src="https://github.com/user-attachments/assets/4e7b4890-58f1-46e7-a67b-9eba108c5a26" />
 
 ---
 
 ### Dashboard 3 – Marketing Efficiency
 
-*(Add screenshot here)*
+<img width="1185" height="784" alt="image" src="https://github.com/user-attachments/assets/c7160266-d610-4d23-ab5e-22ae2d21cd5d" />
 
 ---
 
 ### Dashboard 4 – Customer Health
 
-*(Add screenshot here)*
+<img width="1212" height="783" alt="image" src="https://github.com/user-attachments/assets/5ca9b4ec-0063-403b-8133-aff1d09edb1a" />
 
 ---
 
