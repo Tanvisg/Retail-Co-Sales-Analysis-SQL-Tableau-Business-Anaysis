@@ -1,203 +1,217 @@
-# 📊 RetailCo Business Performance Analysis | SQL + Tableau
+# 📊 RetailCo Sales Decline Analysis
 
-## 📌 Project Overview
+## 📌 Business Problem
 
-RetailCo is a fictional mid-sized retail company operating across four regions in India.
+RetailCo is a fictional mid-sized retail chain operating across four regions in India.
 
-Although the company increased its marketing spend by **18% in 2024**, total revenue declined significantly compared to 2023. Leadership wanted to understand why the business was underperforming and whether the issue was related to regional sales, marketing effectiveness, pricing strategy, or customer health.
+Although marketing spend increased by **18% in 2024**, the company experienced a significant decline in revenue. Leadership suspected the issue could be related to regional performance, marketing efficiency, pricing strategy, or customer retention—but lacked clear evidence.
 
-This end-to-end data analytics project simulates a real-world business case using **SQL** for data analysis and **Tableau** for interactive dashboards.
-
----
-
-## 🎯 Business Problem
-
-> RetailCo increased marketing investment in 2024, yet overall revenue dropped. Identify the key drivers behind the decline and provide actionable business recommendations.
+This project investigates the root causes using **SQL** and **Tableau**, transforming raw transactional and marketing data into actionable business insights.
 
 ---
 
-## 🛠️ Tools Used
+# 🎯 Objectives
+
+This project aims to answer the following business questions:
+
+* Why did revenue decline despite increased marketing spend?
+* Which regions contributed most to the decline?
+* Did discounting negatively impact revenue?
+* Was marketing spend efficient?
+* Which customer segments are most at risk?
+* What actions should leadership take?
+
+---
+
+# 🛠 Tech Stack
 
 * SQL (MySQL)
 * Tableau
-* Excel / CSV
-* Git & GitHub
-
----
-
-## 📂 Dataset
-
-The project uses four interconnected datasets:
-
-* **sales_transactions** – Orders, revenue, units sold, discounts
-* **customer_master** – Customer demographics and lifetime value
-* **marketing_spend** – Marketing spend, clicks, impressions, conversions
-* **regional_targets** – Regional sales targets and achievement
-
----
-
-# 📊 Dashboard 1 – Revenue Overview
-
-### KPIs
-
-* 2024 Revenue
-* YoY Revenue Growth
-* Revenue Difference vs 2023
-
-### Visuals
-
-* Revenue by Region (2023 vs 2024)
-* Monthly Revenue Trend
-* Revenue Change by Region
-
-### Key Findings
-
-* Revenue decreased by **28.1%** in 2024.
-* Overall revenue declined by **₹9.4M**.
-* East and North experienced the largest revenue losses.
-* West remained the strongest performing region.
-
----
-
-# 🔍 Dashboard 2 – Root Cause Analysis
-
-### Visuals
-
-* Average Discount % by Region
-* Average Order Value (AOV) Trend
-
-### Key Findings
-
-* East and North nearly doubled their discount percentages.
-* Higher discounts coincided with a sharp decline in AOV.
-* AOV dropped from nearly **₹12K** to **₹4K** during 2024.
-* Increasing discounts failed to generate higher revenue.
-
----
-
-# 📈 Dashboard 3 – Marketing Efficiency
-
-### Visuals
-
-* Cost Per Conversion (CPC) by Region
-* Click Through Rate (CTR) by Marketing Channel
-
-### Key Findings
-
-* CPC increased significantly in East, North, and South.
-* West remained the most cost-efficient region.
-* Digital and TV campaigns improved CTR in 2024.
-* Email and Outdoor campaigns lost effectiveness.
-
----
-
-# 👥 Dashboard 4 – Customer Health
-
-### Visuals
-
-* Average Customer Lifetime Value (LTV)
-* Churn Rate by Region
-* Occasional Customer Count
-
-### Key Findings
-
-* South recorded the highest customer lifetime value.
-* North showed the highest churn rate (16%).
-* North also had the largest number of occasional customers, indicating weak customer retention.
-
----
-
-# 💡 Business Recommendations
-
-### Pricing Strategy
-
-* Reduce aggressive discounting in East and North.
-* Focus on value-based pricing instead of blanket discounts.
-
-### Marketing Optimization
-
-* Shift marketing budget toward high-performing channels such as Digital and TV.
-* Reduce spend on low-performing channels like Email and Outdoor.
-
-### Customer Retention
-
-* Launch loyalty programs targeting North region.
-* Re-engage occasional customers with personalized offers.
-
-### Regional Focus
-
-* Replicate West's pricing and marketing strategy across other regions.
-* Investigate operational issues contributing to East and North's revenue decline.
+* AI-generated Synthetic Dataset
+* Business Analytics
 
 ---
 
 # 📈 Project Workflow
 
-1. Designed a fictional business case
-2. Generated realistic retail datasets
-3. Imported data into SQL
-4. Cleaned and transformed data
-5. Performed business analysis using SQL
-6. Built calculated fields and KPIs
-7. Created interactive Tableau dashboards
-8. Derived business insights and recommendations
-
----
-
-## 📁 Repository Structure
-
 ```text
-RetailCo-Business-Analysis/
-│
-├── Dashboard Images/
-├── Tableau Workbook/
-├── SQL/
-├── Dataset/
-└── README.md
+Business Problem
+        ↓
+Data Exploration (SQL)
+        ↓
+Root Cause Analysis
+        ↓
+Dashboard Design (Tableau)
+        ↓
+Business Recommendations
 ```
 
 ---
 
-## 🚀 Skills Demonstrated
+# 📊 Dashboard 1 — Revenue Overview
+
+## Objective
+
+Understand what changed between **2023** and **2024**.
+
+### Key Findings
+
+* ✅ Revenue declined by **28.1%**
+* ✅ Revenue dropped by **₹9.4M**
+* ✅ East and North contributed the largest losses.
+* ✅ Monthly revenue remained consistently below 2023 levels.
+
+### Dashboard Preview
+
+<img width="1190" height="796" alt="image" src="https://github.com/user-attachments/assets/a68eb2f6-9dab-4c4d-bd44-d7c0ef48e1eb" />
+
+---
+
+# 🔍 Dashboard 2 — Root Cause Analysis
+
+## Objective
+
+Identify the primary reasons behind the revenue decline.
+
+### Key Findings
+
+* ✅ East and North nearly doubled their average discount percentages.
+* ✅ Higher discounting coincided with a significant decline in Average Order Value (AOV).
+* ✅ South and West maintained relatively stable pricing and performance.
+
+### Dashboard Preview
+
+<img width="1181" height="778" alt="image" src="https://github.com/user-attachments/assets/93a0e0a5-6ee8-439f-8f77-8ffd84437f55" />
+
+---
+
+# 📈 Dashboard 3 — Marketing Efficiency
+
+## Objective
+
+Evaluate whether increased marketing investment improved campaign performance.
+
+### Key Findings
+
+* CPC increased significantly in East and North.
+* West remained the most cost-efficient region.
+* Digital and TV campaigns generated stronger CTR.
+* Email and Outdoor campaigns delivered lower marketing efficiency.
+
+### Dashboard Preview
+
+<img width="1184" height="786" alt="image" src="https://github.com/user-attachments/assets/2f2deb32-f998-49b7-aa38-de9005711b28" />
+
+---
+
+# 👥 Dashboard 4 — Customer Health
+
+## Objective
+
+Assess long-term customer retention and loyalty.
+
+### Key Findings
+
+* North recorded the highest churn rate.
+* North had the largest group of occasional customers.
+* South achieved the highest Customer Lifetime Value (LTV).
+* Customer retention varied significantly across regions.
+
+### Dashboard Preview
+
+<img width="1212" height="787" alt="image" src="https://github.com/user-attachments/assets/3bda1ab8-844a-4562-b579-11a4b3d80dad" />
+
+---
+
+# 💡 Business Recommendations
+
+## 1. Reduce Excessive Discounting
+
+East and North almost doubled their discount percentages without generating proportional revenue growth.
+
+**Recommendation**
+
+* Cap discounts between **15–18%**.
+* Shift focus from price reductions to value-based selling.
+
+---
+
+## 2. Optimize Marketing Spend
+
+Higher marketing investment resulted in increased Cost Per Conversion (CPC) across multiple regions.
+
+**Recommendation**
+
+* Reduce spending in low-performing regions.
+* Reallocate budget toward channels with stronger conversion performance.
+
+---
+
+## 3. Replicate Successful Regional Strategies
+
+South and West maintained healthier revenue while offering lower discounts.
+
+**Recommendation**
+
+* Study pricing and marketing strategies used in these regions.
+* Apply successful practices across East and North.
+
+---
+
+## 4. Improve Customer Retention
+
+North demonstrated:
+
+* Highest churn rate
+* Highest number of occasional customers
+* Weakest customer health
+
+**Recommendation**
+
+Launch targeted loyalty campaigns before occasional customers become churned customers.
+
+---
+
+# 🧠 Skills Demonstrated
 
 * SQL
 * Data Cleaning
-* Data Transformation
 * Exploratory Data Analysis (EDA)
-* Business KPI Development
-* Tableau Dashboard Design
-* Data Storytelling
-* Business Analysis
-* Retail Analytics
+* Business Analytics
+* Dashboard Design
+* KPI Development
+* Tableau
+* Business Storytelling
 
 ---
 
-## 📷 Dashboard Preview
+# 📂 Repository Structure
 
-### Dashboard 1 – Revenue Overview
-
-<img width="1193" height="790" alt="image" src="https://github.com/user-attachments/assets/ef751ac7-c756-44d7-87e5-6edc24717712" />
-
----
-
-### Dashboard 2 – Root Cause Analysis
-
-<img width="1184" height="785" alt="image" src="https://github.com/user-attachments/assets/4e7b4890-58f1-46e7-a67b-9eba108c5a26" />
+```text
+📂 Dashboard Images
+📂 SQL
+📂 Dataset
+📂 Tableau Workbook
+README.md
+```
 
 ---
 
-### Dashboard 3 – Marketing Efficiency
+# 📌 Project Outcome
 
-<img width="1185" height="784" alt="image" src="https://github.com/user-attachments/assets/c7160266-d610-4d23-ab5e-22ae2d21cd5d" />
+The analysis demonstrates that **increasing marketing spend alone does not guarantee revenue growth**.
+
+The primary drivers behind RetailCo's revenue decline were:
+
+* Ineffective discounting strategy
+* Declining Average Order Value (AOV)
+* Poor marketing efficiency in selected regions
+* Weak customer retention
+
+By combining SQL-based exploration with interactive Tableau dashboards, this project provides leadership with clear, data-driven recommendations to improve profitability.
 
 ---
 
-### Dashboard 4 – Customer Health
+## ⭐ About This Project
 
-<img width="1212" height="783" alt="image" src="https://github.com/user-attachments/assets/5ca9b4ec-0063-403b-8133-aff1d09edb1a" />
-
----
-
-## ⭐ Conclusion
-
-This project demonstrates how SQL and Tableau can be used together to investigate declining business performance, uncover hidden patterns, and provide data-driven recommendations. Rather than simply creating dashboards, the analysis follows a complete business investigation—from identifying the problem to explaining the root causes and proposing actionable solutions—mirroring the workflow of a Business/Data Analyst in a real-world retail environment.
+This project was designed as an end-to-end business analytics case study to simulate a real-world retail scenario. It demonstrates the complete analytical workflow—from understanding a business problem and exploring data with SQL to building executive dashboards in Tableau and presenting actionable recommendations through data storytelling.
