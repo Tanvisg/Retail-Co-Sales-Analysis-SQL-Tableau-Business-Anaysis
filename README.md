@@ -176,7 +176,7 @@ RetailCo-Business-Analysis/
 
 ### Dashboard 1 – Revenue Overview
 
-*(Add screenshot here)*
+<img width="1193" height="790" alt="image" src="https://github.com/user-attachments/assets/ef751ac7-c756-44d7-87e5-6edc24717712" />
 
 ---
 
