@@ -185,18 +185,6 @@ Launch targeted loyalty campaigns before occasional customers become churned cus
 
 ---
 
-# 📂 Repository Structure
-
-```text
-📂 Dashboard Images
-📂 SQL
-📂 Dataset
-📂 Tableau Workbook
-README.md
-```
-
----
-
 # 📌 Project Outcome
 
 The analysis demonstrates that **increasing marketing spend alone does not guarantee revenue growth**.
